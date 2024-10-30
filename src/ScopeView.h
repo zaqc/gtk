@@ -28,7 +28,7 @@ protected:
 
 	int m_A1, m_A2, m_VL;
 
-	bool on_draw(const Cairo::RefPtr<Cairo::Context>& cr);
+	bool on_draw(const Cairo::RefPtr<Cairo::Context>& cr) override;
 	bool on_timeout(void);
 
 public:
